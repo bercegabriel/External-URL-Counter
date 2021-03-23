@@ -41,7 +41,7 @@ If you download zip archive or cloned the project, you must go from cmd in direc
 ```bash
 python plugin.py
 ```
-An user interface will appear and you must push the browse button in order to choose a project. After that you must push save button and wait until json file is generated. The output file will be genrated in your project directory.
+An user interface will appear and you must push the browse button in order to choose a project. After that you must push save button and wait until json file is generated. The output file will be genrated in your project directory.<br>
 ![alt text](https://user-images.githubusercontent.com/49149499/112227654-a937dd80-8c38-11eb-942d-f7506b88c1a6.png)
 
 ### Docker
