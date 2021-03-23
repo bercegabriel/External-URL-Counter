@@ -42,11 +42,30 @@ If you download zip archive or cloned the project, you must go from cmd in direc
 python plugin.py
 ```
 An user interface will appear and you must push the browse button in order to choose a project. After that you must push save button and wait until json file is generated. The output file will be genrated in your project directory.
-![alt text](![image](https://user-images.githubusercontent.com/49149499/112227354-3169b300-8c38-11eb-8e3c-570aed33292f.png)
-)
+![alt text](https://user-images.githubusercontent.com/49149499/112227654-a937dd80-8c38-11eb-942d-f7506b88c1a6.png)
+
+### Docker
+
+To run the container use the command below:
+```bash
+docker run -v "path to your project directory":"./plugincontainer/projectFolder" -v "path to directory in which you wish to see results/results":"./plugincontainer/results" alexandrasanda/plugincounter
+```
+
+## Output file
+
+The output file will have a structure like:<br>
+![alt text](https://user-images.githubusercontent.com/49149499/112228228-a689b800-8c39-11eb-835a-c1466ab4568d.png)
+
+## Results
+If you upload output file in DX Platform, you can see the following results:<br>
+![alt text](https://user-images.githubusercontent.com/49149499/112228638-47787300-8c3a-11eb-9df5-39eb8d66a354.png)
+![alt text](https://user-images.githubusercontent.com/49149499/112228727-6971f580-8c3a-11eb-8094-5e5a571881c8.png)
+
+### Note
+Be sure that in your project exists html files to avoid generating an empty json file.
 
 ## Contributing
 We are not open to collaborations with other developers.
 
 ## License
-[Apache License 2.0](LICENSE)
+Distributed under the [Apache License 2.0](LICENSE)
