@@ -26,7 +26,7 @@ git clone https://github.com/bercegabriel/External-URL-Counter.git
 ```
 ### Docker
 
-You can also get this project as a Docker container from [DockerHub](https://hub.docker.com/layers/142688222/alexandrasanda/plugincounter/latest/images/sha256-b7ecc0dcd7d16f5e8cf64a1d84f6ffd4fd686bf55fb328df97cc51bec4183fc6?context=explore).
+You can also get this project as a Docker container from [DockerHub](https://hub.docker.com/repository/docker/alexandrasanda/plugincounter).
 
 To get the container:
 ```bash
