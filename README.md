@@ -12,6 +12,7 @@ You must have [<b>PYTHON</b>](https://www.python.org/downloads/) and <b>tkinter<
 ```bash
 pip install tkinter
 ```
+In order to be able to see the results from output file, you must download [DX Platform](https://drive.google.com/file/d/1bC4ZJ_RVcGJezAHZ45AIF8UKAh3gG3NY/view?usp=sharing) and upload json file there.
 
 ## Installation
 
