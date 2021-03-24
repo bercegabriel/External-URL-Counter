@@ -18,7 +18,7 @@ pip install tkinter
 ### Local
 
 You can download a zip archive with python script or you can clone the project.
-<br>Download zip archive:
+<br>Download zip archive:<br>
 ![alt text](https://user-images.githubusercontent.com/49149499/112225282-3416d900-8c35-11eb-836b-b6ae2b2125c8.png)
 <br>In order to clone the project you must have the [git](https://git-scm.com/downloads) installed. After that you must open a git cmd and type the following command:
 ```bash
@@ -37,11 +37,11 @@ docker pull alexandrasanda/plugincounter:latest
 
 ### Local
 
-If you download zip archive or cloned the project, you must go from cmd in directory where is the project and run:
+If you download zip archive or cloned the project, open a cmd window and go in the directory where is the project and run:
 ```bash
 python plugin.py
 ```
-An user interface will appear and you must push the browse button in order to choose a project. After that you must push save button and wait until json file is generated. The output file will be genrated in your project directory.<br>
+An user interface will appear and you must press the browse button in order to choose a project. After that you must press save button and wait until json file is generated. The output file will be genrated in your project directory.<br>
 ![alt text](https://user-images.githubusercontent.com/49149499/112227654-a937dd80-8c38-11eb-942d-f7506b88c1a6.png)
 
 ### Docker
@@ -59,10 +59,11 @@ The output file will have a structure like:<br>
 ## Results
 If you upload output file in DX Platform, you can see the following results:<br>
 ![alt text](https://user-images.githubusercontent.com/49149499/112228638-47787300-8c3a-11eb-9df5-39eb8d66a354.png)
-![alt text](https://user-images.githubusercontent.com/49149499/112228727-6971f580-8c3a-11eb-8094-5e5a571881c8.png)
+![alt text](https://user-images.githubusercontent.com/49149499/112228727-6971f580-8c3a-11eb-8094-5e5a571881c8.png)<br>
+In the first picture, are coloured all files that have external URLs inside and in the second picture is displayed the number of href and src tags from files.
 
 ### Note
-Be sure that in your project exists html files to avoid generating an empty json file.
+Be sure that in your project there are html files to avoid generating an empty json file.
 
 ## Contributing
 We are not open to collaborations with other developers.
